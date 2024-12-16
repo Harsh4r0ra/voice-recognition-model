@@ -12,7 +12,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 
 # Global variables for audio handling
 q = queue.Queue()
-model = Model(lang="en-us")
+model = Model(lang="en-in")
 recognizer = None
 recording = False
 
