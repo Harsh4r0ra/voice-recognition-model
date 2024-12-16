@@ -33,6 +33,7 @@ class AudioTranscriber:
         self.recording_data = []
         self.stop_recording = False
         
+    
     def audio_callback(self, indata, frames, time, status):
         """Callback for audio recording"""
         if status:
